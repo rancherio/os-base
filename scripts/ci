@@ -5,10 +5,11 @@ cd $(dirname $0)/..
 
 : ${CONFIG:=$(pwd)/config}
 : ${DIST:=$(pwd)/dist}
+: ${ARCH:='x86_64 aarch64 arm'}
 
 ./scripts/download
 
-for arch in 'x86_64' 'aarch64'; do
+for arch in $ARCH; do
   ./scripts/build-busybox ${CONFIG}/${arch}/buildroot-config ${CONFIG}/busybox-dynamic.config ${DIST}/${arch}
   ./scripts/package ${arch}
 done
