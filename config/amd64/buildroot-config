@@ -856,6 +856,7 @@ BR2_PACKAGE_ACPID=y
 # BR2_PACKAGE_CDRKIT is not set
 # BR2_PACKAGE_CWIID is not set
 BR2_PACKAGE_CRYPTSETUP=y
+
 #
 # dahdi-linux needs a Linux kernel to be built
 #
