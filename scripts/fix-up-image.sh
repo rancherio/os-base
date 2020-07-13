@@ -9,7 +9,6 @@ rm -rfv \
     usr/bin/colrm \
     usr/bin/column \
     usr/bin/findmnt \
-    usr/bin/flock \
     usr/bin/i386 \
     usr/bin/ipcmk \
     usr/bin/isosize \
@@ -27,7 +26,6 @@ rm -rfv \
     usr/bin/rev \
     usr/bin/script \
     usr/bin/scriptreplay \
-    usr/bin/stat \
     usr/bin/tailf \
     usr/bin/uname26 \
     usr/bin/whereis \
